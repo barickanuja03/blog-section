@@ -23,14 +23,17 @@ body, html {
 .blog-container .box1 {
   margin-top: 3rem;
   border: 1px solid #efbf5f;
-  height: auto;
+  height: 33rem;
   background-color: #efbf5f;
   padding: 7rem 0rem;
 }
 .blog-container h2 {
-  margin-top: 4rem;
+  margin-top: 7rem;
   font-size: 2rem;
   text-transform: capitalize;
+}
+.blog-container p {
+  margin-top: 1.8rem;
 }
 .blog-container .button-style {
   background-color: #efbf5f;
@@ -61,4 +64,18 @@ body, html {
   background-color: silver;
   margin-top: 9rem;
   padding: 4.5rem 0rem;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*---------------------------footer section-------------------------*/
+/*footer{
+    margin-top:4rem;
+.logo{
+     font-size:7rem;
+
+ }
+ p{
+
+    font-size:1rem;
+    margin-top:3rem;
+ }
+}*//*# sourceMappingURL=style.css.map */

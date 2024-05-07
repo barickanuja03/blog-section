@@ -11,8 +11,6 @@ body,html{
 }
 .blog-container{
   margin-top:3rem;
-//  width:100% !important;
- //  margin-left:19rem;
     .article {
         color:white;
     }
@@ -22,14 +20,17 @@ body,html{
     .box1{
         margin-top:3rem;
         border:1px solid #efbf5f;
-        height:auto;
+        height:33rem;
         background-color: #efbf5f;
         padding: 7rem 0rem;
     }
     h2{
-        margin-top:4rem;
+        margin-top:7rem;
         font-size:2rem;
         text-transform: capitalize;
+    }
+    p{
+        margin-top:1.8rem;
     }
     .button-style{
         background-color:#efbf5f;
@@ -55,14 +56,28 @@ body,html{
             }
         
      }
-    
-  }//left section end
+}  
     .box2{
         border:1px solid rgb(237, 221, 221);
         background-color: silver;
         margin-top:9rem;
         padding:4.5rem 0rem;
     }
-}//
+}
 
     
+
+
+/*---------------------------footer section-------------------------*/
+/*footer{
+    margin-top:4rem;
+.logo{
+     font-size:7rem;
+    
+ }
+ p{
+
+    font-size:1rem;
+    margin-top:3rem;
+ }
+}*/
