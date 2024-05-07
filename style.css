@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-size: 10px;
+  background-color: rgb(235, 235, 222);
+  width: 100%;
+  height: 100vh;
+}
+
+.blog-container {
+  margin-top: 3rem;
+}
+.blog-container .article {
+  color: white;
+}
+.blog-container .blog-heading {
+  font-size: 3rem;
+}
+.blog-container .box1 {
+  margin-top: 3rem;
+  border: 1px solid #efbf5f;
+  height: auto;
+  background-color: #efbf5f;
+  padding: 7rem 0rem;
+}
+.blog-container h2 {
+  margin-top: 4rem;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+.blog-container .button-style {
+  background-color: #efbf5f;
+}
+.blog-container .button-style button {
+  margin-top: 4rem;
+  padding: 0.5rem 4rem;
+  border-radius: 5rem;
+  font-size: 1.8rem;
+  background-color: black;
+  color: white;
+}
+.blog-container .button-style span {
+  border-radius: 50%;
+  background-color: rgb(7, 7, 7);
+  margin-left: -0.4rem;
+  margin-top: -0.2rem;
+  padding: 1.5rem;
+}
+.blog-container .button-style span svg {
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.blog-container .box2 {
+  border: 1px solid rgb(237, 221, 221);
+  background-color: silver;
+  margin-top: 9rem;
+  padding: 4.5rem 0rem;
+}/*# sourceMappingURL=style.css.map */
