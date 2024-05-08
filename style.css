@@ -75,6 +75,15 @@ footer {
 footer .logo {
   font-size: 7rem;
 }
+footer .logo .logo-gbb {
+  letter-spacing: -1.3rem;
+}
+footer .logo .logo-gbb .b1 {
+  color: yellowgreen;
+}
+footer .logo .logo-gbb .b {
+  color: white;
+}
 footer p {
   font-size: 1rem;
   margin-top: 4rem;
