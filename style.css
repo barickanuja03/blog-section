@@ -67,15 +67,72 @@ body, html {
 }
 
 /*---------------------------footer section-------------------------*/
-/*footer{
-    margin-top:4rem;
-.logo{
-     font-size:7rem;
-
- }
- p{
-
-    font-size:1rem;
-    margin-top:3rem;
- }
-}*//*# sourceMappingURL=style.css.map */
+footer {
+  margin-top: 7rem;
+  width: 100% !important;
+  height: auto;
+}
+footer .logo {
+  font-size: 7rem;
+}
+footer p {
+  font-size: 1rem;
+  margin-top: 4rem;
+}
+footer .second-row {
+  display: grid;
+  place-items: center;
+}
+footer .second-row .menu-bar {
+  word-spacing: 1rem;
+  font-size: 1.7rem;
+}
+footer .third-row {
+  display: grid;
+  place-items: center;
+}
+footer .third-row .menu-bar1 {
+  word-spacing: 1rem;
+  font-size: 1.7rem;
+}
+footer .four-row {
+  display: grid;
+  place-items: center;
+}
+footer .four-row .four-row-paragraph {
+  font-size: 1.9rem;
+}
+footer .four-row .facebook {
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+  background-color: gray;
+  color: white;
+  text-decoration: none;
+}
+footer .four-row .instagram {
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  margin-left: 0.5rem;
+  padding: 0.8rem;
+  background-color: gray;
+  color: white;
+  text-decoration: none;
+}
+footer .four-row .logo-icon-svg {
+  border: 1px solid yellowgreen;
+  border-radius: 0.5rem;
+  margin-left: 0.5rem;
+  padding: 0.8rem;
+  background-color: yellowgreen;
+  color: black;
+  text-decoration: none;
+}
+footer .four-row .linkedin {
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  margin-left: 0.5rem;
+  padding: 0.8rem;
+  background-color: gray;
+  color: white;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

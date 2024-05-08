@@ -69,15 +69,73 @@ body,html{
 
 
 /*---------------------------footer section-------------------------*/
-/*footer{
-    margin-top:4rem;
+footer{
+    margin-top:7rem;
+    width:100% !important;
+    height:auto;
 .logo{
-     font-size:7rem;
-    
+     font-size:7rem; 
  }
  p{
-
     font-size:1rem;
-    margin-top:3rem;
+    margin-top:4rem;
  }
-}*/
+ .second-row{
+  display:grid;
+  place-items: center;
+ .menu-bar{
+   word-spacing: 1rem;
+   font-size:1.7rem;
+ }
+}
+.third-row{
+    display:grid;
+  place-items: center;
+ .menu-bar1{
+   word-spacing: 1rem;
+   font-size:1.7rem;
+ }
+}
+.four-row{
+    display:grid;
+    place-items: center;
+ .four-row-paragraph{
+    font-size:1.9rem;
+ }
+ .facebook{
+    border-radius: .5rem;
+    padding:.8rem;
+    background-color:gray;
+    color:white;
+    text-decoration: none;
+    
+ }
+ .instagram{
+    border:1px solid gray;
+    border-radius: .5rem;
+    margin-left:.5rem;
+    padding:.8rem;
+    background-color:gray;
+    color:white;
+    text-decoration: none;
+ }
+ .logo-icon-svg{
+    border:1px solid yellowgreen;
+    border-radius: .5rem;
+    margin-left:.5rem;
+    padding:.8rem;
+    background-color:yellowgreen;
+    color:black;
+    text-decoration: none;
+ }
+ .linkedin{
+    border:1px solid gray;
+    border-radius: .5rem;
+    margin-left:.5rem;
+    padding:.8rem;
+    background-color:gray;
+    color:white;
+    text-decoration: none;
+ }
+}
+}

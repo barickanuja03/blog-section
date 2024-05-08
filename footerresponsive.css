@@ -1,0 +1,23 @@
+@media (max-width:991px)
+{
+    body{
+        font-size:10px;
+    }
+    .footer-container{
+        max-width: 100vw !important;
+        height: 100vh;
+        margin:0;
+    }
+    .facebook{
+        padding:0px;
+     }
+     .instagram{
+        padding:0px;
+     }
+     .logo-icon-svg{
+        padding:0px;
+     }
+     .linkedin{
+        padding:0px;
+     }
+}

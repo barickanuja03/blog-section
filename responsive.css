@@ -7,7 +7,7 @@
     .blog-container{
         margin:0rem;
        max-width:100vw !important;
-        height:100vh;
+      /*  height:100vh;*/
     }
    
     .blog-heading{
@@ -20,6 +20,23 @@
         span{
             padding:1rem;
         }
+        /* .footer-container{
+            max-width: 100vw !important;
+            height: 100vh;
+            margin:0;
+        }
+        .facebook{
+            padding:0;
+         }
+         .instagram{
+            padding:0;
+         }
+         .logo-icon-svg{
+            padding:0;
+         }
+         .linkedin{
+            padding:0;
+         } */
         
 }
 @media (max-width:768px)
@@ -27,7 +44,11 @@
     .blog-container{
         margin:0rem;
        max-width:100vw !important;
-        height:100vh;
+    }
+       .footer-container{
+        max-width: 100vw !important;
+        margin:0;
+      /*  height:100vh;*/
     }
     .box1{
      
@@ -54,4 +75,10 @@
       
         margin-top:-90rem;
     }
+    /*.logo p{
+        margin-top:-3rem;
+    }*/
+        /* .menu-bar{ 
+          margin-top:-90rem !important;
+       } */
 }
