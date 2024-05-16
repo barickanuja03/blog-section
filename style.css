@@ -14,55 +14,69 @@ body, html {
 .blog-container {
   margin-top: 3rem;
 }
-.blog-container .article {
+.blog-container .logo-heading {
+  display: flex;
+  flex-direction: column;
+}
+.blog-container .logo-heading .article {
   color: white;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 1rem 1rem;
 }
-.blog-container .blog-heading {
+.blog-container .logo-heading .blog-heading {
   font-size: 3rem;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 0.3rem 1rem;
 }
-.blog-container .box1 {
+
+.box1 {
   margin-top: 3rem;
   border: 1px solid #efbf5f;
   height: 33rem;
   background-color: #efbf5f;
   padding: 7rem 0rem;
 }
-.blog-container h2 {
+.box1 .box-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.box1 .box-text h2 {
   margin-top: 7rem;
   font-size: 2rem;
   text-transform: capitalize;
 }
-.blog-container p {
+.box1 .box-text p {
   margin-top: 1.8rem;
 }
-.blog-container .button-style {
-  background-color: #efbf5f;
-}
-.blog-container .button-style button {
-  margin-top: 4rem;
+.box1 .box-text .button-style button {
+  margin-top: 2rem;
   padding: 0.5rem 4rem;
   border-radius: 5rem;
   font-size: 1.8rem;
   background-color: black;
   color: white;
 }
-.blog-container .button-style span {
+.box1 span {
   border-radius: 50%;
   background-color: rgb(7, 7, 7);
   margin-left: -0.4rem;
   margin-top: -0.2rem;
   padding: 1.5rem;
 }
-.blog-container .button-style span svg {
+.box1 span svg {
   color: white;
   text-align: center;
   font-size: 1rem;
   font-weight: 600;
 }
-.blog-container .box2 {
+
+.box2 {
   border: 1px solid rgb(237, 221, 221);
   background-color: silver;
-  margin-top: 9rem;
+  margin-top: 2.6rem;
   padding: 4.5rem 0rem;
 }
 
@@ -84,9 +98,10 @@ footer .logo .logo-gbb .b1 {
 footer .logo .logo-gbb .b {
   color: white;
 }
-footer p {
+footer .footer-paragraph {
   font-size: 1rem;
   margin-top: 4rem;
+  color: white;
 }
 footer .second-row {
   display: grid;

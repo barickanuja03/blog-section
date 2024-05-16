@@ -11,37 +11,51 @@ body,html{
 }
 .blog-container{
   margin-top:3rem;
+  .logo-heading{
+    display:flex;
+    flex-direction: column;
     .article {
         color:white;
+        width:max-content;
+         padding: 1rem 1rem;
     }
     .blog-heading{
         font-size:3rem;
+        width:max-content;
+        padding:0.3rem 1rem;
     }
+}
+}
     .box1{
         margin-top:3rem;
         border:1px solid #efbf5f;
         height:33rem;
         background-color: #efbf5f;
         padding: 7rem 0rem;
-    }
-    h2{
-        margin-top:7rem;
-        font-size:2rem;
-        text-transform: capitalize;
-    }
-    p{
-        margin-top:1.8rem;
-    }
+        .box-text{
+            display:flex;
+            flex-direction: column;
+            justify-content: end;
+             h2{
+                 margin-top:7rem;
+                 font-size:2rem;
+                 text-transform: capitalize;
+                 }
+               p{
+                 margin-top:1.8rem;
+                 }
     .button-style{
-        background-color:#efbf5f;
+       // background-color:#efbf5f;
         button{
-            margin-top:4rem;
+            margin-top:2rem;
             padding:.5rem 4rem;
             border-radius: 5rem;
             font-size: 1.8rem;
             background-color: black;
             color:white;
         }
+    }
+}
         span{
             border-radius:50%;
             background-color: rgb(7, 7, 7);
@@ -60,10 +74,9 @@ body,html{
     .box2{
         border:1px solid rgb(237, 221, 221);
         background-color: silver;
-        margin-top:9rem;
+         margin-top:2.6rem;
         padding:4.5rem 0rem;
     }
-}
 
     
 
@@ -85,9 +98,10 @@ footer{
      }
     }
  }
- p{
+ .footer-paragraph{
     font-size:1rem;
     margin-top:4rem;
+    color:white;
  }
  .second-row{
   display:grid;
